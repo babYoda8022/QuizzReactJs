@@ -23,6 +23,7 @@ h1{
 }
 
 button{
+    cursor: pointer;
     margin-top: 4rem;
     padding: 1.3rem 10rem;
     font-size: 3.5rem;
