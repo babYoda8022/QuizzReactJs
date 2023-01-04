@@ -13,8 +13,8 @@ export var questions = [
     {
         question: "Uma função deve ter retorno quando?",
         options: ["Somente quando faz uma soma", "Quando não se recebe propriedade", 
-                "Quando queremos retornar o valor", "Somente quando o retorno for bool"],
-        answer: "function()"
+                "Quando queremos retornar um valor", "Somente quando o retorno for bool"],
+        answer: "Quando queremos retornar um valor"
     },
     {
         question: "Como mudar a cor de fundo com CSS?",
