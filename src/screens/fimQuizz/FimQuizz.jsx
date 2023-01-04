@@ -18,6 +18,7 @@ export default function FimQuizz(props){
                 questions: props.questions
             })
             )
+        window.alert("Score Salvo")
     }
 
     return(
