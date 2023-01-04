@@ -18,8 +18,8 @@ export var questions = [
     },
     {
         question: "Como mudar a cor de fundo com CSS?",
-        options: ["backgournd-color:", "color:", "background-image:", "font-size:"],
-        answer: "backgournd-color:"        
+        options: ["background-color:", "color:", "backgraund-color:", "font-size:"],
+        answer: "background-color:"        
     },
     {
         question: "Qual a forma corretada de declarar uma função em JS?",
