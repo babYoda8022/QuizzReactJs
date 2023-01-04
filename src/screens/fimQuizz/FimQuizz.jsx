@@ -18,7 +18,7 @@ export default function FimQuizz(props){
                 questions: props.questions
             })
             )
-        window.alert("Score Salvo")
+        window.alert("Novo score Salvo")
     }
 
     return(
@@ -34,7 +34,9 @@ export default function FimQuizz(props){
                             onClick={()=>{localStorage.setItem("score", JSON.stringify({
                                 score: props.hits, 
                                 questions: props.questions
-                            }))}}
+                            }))
+                            window.alert("Score Salvo")
+                        }}
                             >Salvar</button>
                 </div> 
             }
