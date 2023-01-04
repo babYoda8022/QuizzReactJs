@@ -39,6 +39,15 @@ export default function Quizz() {
         setNext(true)
     }
 
+    function RestartQuizz(){
+        setQuizzEnd(false)
+        setHits(e => 0)
+        setIndex(e => 0)
+        setNext(e => false)
+        setShow(e => "false")
+        setOneClick(e => true)
+    }
+
     return (
         <div class="container">
             {
@@ -71,7 +80,9 @@ export default function Quizz() {
             }
             {
                 quizzEnd &&
-                <FimQuizz hits={hits} questions={questions.length}/>
+                <FimQuizz hits={hits} questions={questions.length} 
+                resetButton={<button className="btn1"
+                onClick={()=>{RestartQuizz()}}>Reiniciar</button>}/>
             }
         </div>
     )
