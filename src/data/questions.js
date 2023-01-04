@@ -6,18 +6,24 @@ export var questions = [
         answer: "<a>"
     },
     {
-        question: "Como coloca uma cor de fundo?",
+        question: "Qual forma correta de se declarar um inteiro em C#?",
+        options: ["var num", "num", "int num", "var int num"],
+        answer: "int num"
+    },
+    {
+        question: "Uma função deve ter retorno quando?",
+        options: ["Somente quando faz uma soma", "Quando não se recebe propriedade", 
+                "Quando queremos retornar o valor", "Somente quando o retorno for bool"],
+        answer: "function()"
+    },
+    {
+        question: "Como mudar a cor de fundo com CSS?",
         options: ["backgournd-color:", "color:", "background-image:", "font-size:"],
         answer: "backgournd-color:"        
     },
     {
-        question: "Quanto é 7 + 3",
-        options: [8, 16, 7, 10],
-        answer: 10
-    },
-    {
-        question:  "Quanto é 4 x 4",
-        options: [10, 16, 20, 13],
-        answer: 16
+        question: "Qual a forma corretada de declarar uma função em JS?",
+        options: ["func(){}", "function(){}", "void function(){}", "def(){}"],
+        answer: "function(){}"
     }
 ]
