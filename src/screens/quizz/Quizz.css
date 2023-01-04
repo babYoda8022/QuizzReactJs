@@ -16,3 +16,25 @@
     margin-top: 5rem;
     width: 30rem;
 }
+
+.buttonQuiz{
+    margin: 1rem;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    font-size: 3rem;
+    width: 50%;
+}
+
+#True{
+    background-color: rgb(24, 215, 24);
+    color: white;
+}
+
+#False{
+    background-color: rgb(235, 45, 27);
+    color: white;
+}
+
+#ocult{
+    background-color: rgb(169, 169, 169);
+}
