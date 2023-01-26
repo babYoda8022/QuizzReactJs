@@ -8,6 +8,10 @@ export default function Wellcome() {
 
   var [start, setStart] = useState(false)
 
+  function teste(){
+    window.alert(import.meta.env.VITE_REACT_APP_BASE_URL)
+  }
+
   return (
     <div class="container">
       {
@@ -15,7 +19,7 @@ export default function Wellcome() {
         <>
           <img src={Img} alt="" class="img" />
           <h1>QUIZ DE PROGRAMAÇÃO</h1>
-          <button onClick={()=>{setStart(e => true)}}>INICIAR TESTE</button>
+          <button onClick={()=>{teste()}}>INICIAR TESTE</button>
         </>
       }
       {
